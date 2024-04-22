@@ -1,8 +1,8 @@
+import copy from 'clipboard-copy';
 import { number, shape } from 'prop-types';
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import shareIcon from '../images/share-icon.png';
-import copy from 'clipboard-copy';
 
 const ONE_SEC = 1000;
 
