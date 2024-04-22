@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/app-de-receitas-react/static/css/main.44d20d23.css",
-    "main.js": "/app-de-receitas-react/static/js/main.031f1ffc.js",
+    "main.js": "/app-de-receitas-react/static/js/main.b6f61056.js",
     "static/media/loading.webp": "/app-de-receitas-react/static/media/loading.045e351a6d1cd0c61fb7.webp",
     "static/media/logo.png": "/app-de-receitas-react/static/media/logo.e25107028afbdf522946.png",
     "index.html": "/app-de-receitas-react/index.html",
     "main.44d20d23.css.map": "/app-de-receitas-react/static/css/main.44d20d23.css.map",
-    "main.031f1ffc.js.map": "/app-de-receitas-react/static/js/main.031f1ffc.js.map"
+    "main.b6f61056.js.map": "/app-de-receitas-react/static/js/main.b6f61056.js.map"
   },
   "entrypoints": [
     "static/css/main.44d20d23.css",
-    "static/js/main.031f1ffc.js"
+    "static/js/main.b6f61056.js"
   ]
 }
