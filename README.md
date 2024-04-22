@@ -1,5 +1,7 @@
 # App de Receitas
 
+Acesse o app! => https://rafaelbechstedt.github.io/app-de-receitas-react/
+
 O App de Receitas é uma aplicação web onde os usuários podem encontrar, salvar e compartilhar receitas de culinária. Ele oferece uma interface intuitiva para navegar por diferentes tipos de receitas, salvar suas favoritas e compartilhar links para receitas específicas.
 
 ## Funcionalidades Principais
@@ -7,7 +9,6 @@ O App de Receitas é uma aplicação web onde os usuários podem encontrar, salv
 - **Navegação de Receitas:** Os usuários podem explorar uma variedade de receitas, filtrando por categorias como café da manhã, almoço, jantar, sobremesa, etc.
 - **Salvamento de Receitas:** Os usuários podem salvar suas receitas favoritas para acessá-las facilmente mais tarde.
 - **Compartilhamento de Links:** Os usuários podem gerar links diretos para receitas específicas e compartilhá-los com outras pessoas.
-- **Requisições para uma API:** O aplicativo faz requisições para uma API externa para obter informações sobre as receitas, incluindo detalhes sobre os ingredientes, instruções de preparo e imagens.
 
 ## Tecnologias Utilizadas
 
