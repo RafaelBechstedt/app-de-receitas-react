@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { RecipesProvider } from './contexts/RecipesContext';
+import { UserProvider } from './contexts/UserContext';
+import Routes from './routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <RecipesProvider>
+      <UserProvider>
+        <div
+          className={ `bg-white sm:max-w-md mx-auto border-white border-8
+        rounded-xl min-h-screen my-4` }
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Routes />
+        </div>
+      </UserProvider>
+    </RecipesProvider>
   );
 }
 
