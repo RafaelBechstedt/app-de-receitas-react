@@ -15,3 +15,10 @@ O App de Receitas é uma aplicação web onde os usuários podem encontrar, salv
 - **React Router DOM:** Foi utilizado o React Router DOM para facilitar a navegação entre diferentes páginas da aplicação.
 - **Tailwind CSS:** O estilo da aplicação foi desenvolvido utilizando o framework Tailwind CSS para agilizar o processo de estilização e garantir uma aparência moderna e responsiva.
 
+## Colaboradores
+
+- **Isabela Costa**
+- **Patricia Pedroso**
+- **Rafael Bechstedt**
+- **Renan Munhoes**
+- **Vinicius Bortoletto**
