@@ -12,25 +12,25 @@ import RecipeInProgress from '../pages/RecipeInProgress';
 export default function Routes() {
   return (
     <>
-      <Route exact path="/" component={ Login } />
-      <Route exact path="/meals" render={ () => <Recipes title="Meals" /> } />
-      <Route exact path="/drinks" render={ () => <Recipes title="Drinks" /> } />
-      <Route exact path="/meals/:id" component={ RecipeDetails } />
-      <Route exact path="/drinks/:id" component={ RecipeDetails } />
+      <Route exact path="/" component={Login} />
+      <Route exact path="/meals" render={() => <Recipes title="Meals" />} />
+      <Route exact path="/drinks" render={() => <Recipes title="Drinks" />} />
+      <Route exact path="/meals/:id" component={RecipeDetails} />
+      <Route exact path="/drinks/:id" component={RecipeDetails} />
 
       <Route
         exact
         path="/meals/:id/in-progress"
-        component={ RecipeInProgress }
+        component={RecipeInProgress}
       />
       <Route
         exact
         path="/drinks/:id/in-progress"
-        component={ RecipeInProgress }
+        component={RecipeInProgress}
       />
-      <Route exact path="/profile" component={ Profile } />
-      <Route exact path="/done-recipes" component={ DoneRecipes } />
-      <Route exact path="/favorite-recipes" component={ FavoriteRecipes } />
+      <Route exact path="/profile" component={Profile} />
+      <Route exact path="/done-recipes" component={DoneRecipes} />
+      <Route exact path="/favorite-recipes" component={FavoriteRecipes} />
     </>
   );
 }
